@@ -1,0 +1,7 @@
+*.treeNode {
+    color: white;
+    cursor: pointer;
+}
+*.treeNode.selected {
+    font-weight: bold
+}

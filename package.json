@@ -1,10 +1,7 @@
 {
   "name": "config-manager",
   "homepage": "https://github.com/bentekkie/config-manager",
-  "repository": {
-    "type" : "git",
-    "url" : "https://github.com/bentekkie/config-manager.git"
-  },
+  "repository": "github:bentekkie/config-manager",
   "version": "1.0.0",
   "private": true,
   "dependencies": {

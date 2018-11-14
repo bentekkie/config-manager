@@ -32,5 +32,8 @@
     "client:build": "cd client && react-scripts build",
     "client:eject": "cd client && react-scripts eject",
     "start": "babel-node ./server/bin/www ~/.config/config-manager.ini"
+  },
+  "bin": {
+    "config-manager": "./server/bin/starter.js"
   }
 }

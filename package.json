@@ -1,5 +1,10 @@
 {
   "name": "config-manager",
+  "homepage": "https://github.com/bentekkie/config-manager",
+  "repository": {
+    "type" : "git",
+    "url" : "https://github.com/bentekkie/config-manager.git"
+  },
   "version": "1.0.0",
   "private": true,
   "dependencies": {
@@ -33,7 +38,9 @@
     "client:eject": "cd client && react-scripts eject",
     "start": "babel-node ./server/bin/www ~/.config/config-manager.ini"
   },
-  "bin": {
-    "config-manager": "./server/bin/starter.js"
-  }
+  "files": [
+    "client/build/**/*",
+    "server/**/*"
+  ],
+  "bin": "./server/bin/starter.js"
 }

@@ -1,15 +1,6 @@
 {
-  "name": "config-manager-client",
+  "name": "server-config-manager-client",
   "version": "1.0.0",
   "private": true,
-  "proxy": "http://localhost:5000/",
-  "eslintConfig": {
-    "extends": "react-app"
-  },
-  "browserslist": [
-    ">0.2%",
-    "not dead",
-    "not ie <= 11",
-    "not op_mini all"
-  ]
+  "proxy": "http://localhost:5000/"
 }

@@ -15,7 +15,7 @@ export class App {
   constructor(configLocation: string) {
 
     // view engine setup
-    this.app.set('views', join(__dirname, '..','views'));
+    this.app.set('views', join(__dirname, 'views'));
     this.app.set('view engine', 'pug');
     this.app.use(basicAuth({
       authorizeAsync: true,

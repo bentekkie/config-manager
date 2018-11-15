@@ -2117,7 +2117,7 @@ babel-preset-react-app@^6.1.0:
 
 babel-register@^6.26.0:
   version "6.26.0"
-  resolved "https://artifactory.platform.manulife.io/artifactory/api/npm/mfc-dig-npm/babel-register/-/babel-register-6.26.0.tgz#6ed021173e2fcb486d7acb45c6009a856f647071"
+  resolved "https://registry.yarnpkg.com/babel-register/-/babel-register-6.26.0.tgz#6ed021173e2fcb486d7acb45c6009a856f647071"
   integrity sha1-btAhFz4vy0htestFxgCahW9kcHE=
   dependencies:
     babel-core "^6.26.0"
@@ -6787,7 +6787,7 @@ miller-rabin@^4.0.0:
   resolved "https://artifactory.platform.manulife.io/artifactory/api/npm/mfc-dig-npm/mime-db/-/mime-db-1.37.0.tgz#0b6a0ce6fdbe9576e25f1f2d2fde8830dc0ad0d8"
   integrity sha1-C2oM5v2+lXbiXx8tL96IMNwK0Ng=
 
-mime-types@^2.1.12, mime-types@^2.1.21, mime-types@~2.1.17, mime-types@~2.1.18, mime-types@~2.1.19:
+mime-types@^2.1.12, mime-types@~2.1.17, mime-types@~2.1.18, mime-types@~2.1.19:
   version "2.1.21"
   resolved "https://artifactory.platform.manulife.io/artifactory/api/npm/mfc-dig-npm/mime-types/-/mime-types-2.1.21.tgz#28995aa1ecb770742fe6ae7e58f9181c744b3f96"
   integrity sha1-KJlaoey3cHQv5q5+WPkYHHRLP5Y=

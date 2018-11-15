@@ -15,7 +15,6 @@ import fs from 'fs'
  */
 
 const args = process.argv;
-console.log(args.length)
 if(args.length !== 3){
   throw new Error("config path not specified")
 }

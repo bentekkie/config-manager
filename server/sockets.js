@@ -8,7 +8,6 @@ export default function(server,configLocation){
     
     let io = IO(server)
     io.on('connection', socket => {
-        console.log("connected")
         socket.on('get file', path => {
             let pathArr = path.split('/')
             let type = mime.lookup(pathArr[pathArr.length-1])

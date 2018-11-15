@@ -15,6 +15,7 @@ export class Node extends Component<IProps,{}> {
 
     public render(){
         const elements = [<Row
+            style={{margin:0}}
             key={this.props.offset+"r"}>
             <Col xs={{ size: "auto", offset: this.props.offset }}>
                 {this.props.renderNode(this.props.node)}

@@ -2,7 +2,7 @@
   "name": "server-config-manager",
   "homepage": "https://github.com/bentekkie/config-manager",
   "repository": "github:bentekkie/config-manager",
-  "version": "1.0.12",
+  "version": "1.0.13",
   "dependencies": {
     "codemirror": "^5.41.0",
     "cookie-parser": "~1.4.3",

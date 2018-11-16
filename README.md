@@ -86,7 +86,7 @@ Access the react development server on port 3000
 5. Create a new Pull Request
 
 <!-- Markdown link & img dfn's -->
-[npm-image]: https://badge.fury.io/js/server-config-manager.svg&kill_cache=1
+[npm-image]: https://badge.fury.io/js/server-config-manager.svg?kill_cache=1
 [npm-url]: https://www.npmjs.com/package/server-config-manager
 [npm-downloads]: https://img.shields.io/npm/dm/datadog-metrics.svg?style=flat-square
 [travis-image]: https://img.shields.io/travis/dbader/node-datadog-metrics/master.svg?style=flat-square

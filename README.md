@@ -1,5 +1,5 @@
 # Server Config Manager
-> A streamlimed web interface to manage config files on a remote server
+> A streamlined web interface to manage config files on a remote server
 
 [![NPM Version][npm-image]][npm-url]
 

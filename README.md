@@ -87,7 +87,7 @@ Access the react development server on port 3000
 
 <!-- Markdown link & img dfn's -->
 [npm-image]: https://badge.fury.io/js/server-config-manager.svg?kill_cache=1
-[npm-url]: https://www.npmjs.com/package/server-config-manager
+[npm-url]: https://www.npmjs.com/package/server-config-manager/v/latest
 [npm-downloads]: https://img.shields.io/npm/dm/datadog-metrics.svg?style=flat-square
 [travis-image]: https://img.shields.io/travis/dbader/node-datadog-metrics/master.svg?style=flat-square
 [travis-url]: https://travis-ci.org/dbader/node-datadog-metrics

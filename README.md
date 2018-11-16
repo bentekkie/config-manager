@@ -39,10 +39,10 @@ username = admin
 password = admin
 
 [Config Manager]
-config = /Users/segalbe/.config/config-manager.ini
+config = /Users/username/.config/config-manager.ini
 
 [Pip]
-pip.conf = /Users/segalbe/.config/pip/pip.conf
+pip.conf = /Users/username/.config/pip/pip.conf
 
 [Apache]
 main httpd.conf = /etc/apache2/httpd.conf

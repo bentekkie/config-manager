@@ -59,16 +59,19 @@ class App extends Component<{},IState> {
       editorKey: Date.now()
     }
     this.socket.on('get file complete', (_: string , code : string, type : string) => {
-      let tmplang = type.split('/')[1]
-      if (tmplang === "plain") {
-        tmplang = "properties"
-      }
-      if (tmplang !== null && this.state.languages.indexOf(tmplang) > 0) {
-        if (!this.state.loadedLangs[tmplang]) {
-          this.socket.emit('get language', tmplang)
+      if(type){
+        let tmplang = type.split('/')[1]
+        if (tmplang === "plain") {
+          tmplang = "properties"
         }
-        this.setState({ currLanguage: tmplang, selectLanguageValue: { value: tmplang, label: tmplang } })
+        if (tmplang !== null && this.state.languages.indexOf(tmplang) > 0) {
+          if (!this.state.loadedLangs[tmplang]) {
+            this.socket.emit('get language', tmplang)
+          }
+          this.setState({ currLanguage: tmplang, selectLanguageValue: { value: tmplang, label: tmplang } })
+        }
       }
+      
       this.setState({ code, original: code, currFileType: type })
     })
     this.socket.on('config', (config : {[key : string] : any}) => {
